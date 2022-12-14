@@ -1,0 +1,59 @@
+<html>
+
+<head>
+
+    <title>Crear Cuenta</title>
+    <script src='index.js'type="text/javascript"></script>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+
+<body>
+
+    <table>
+        <td>
+            <h1>Create Account</h1>
+            <form id="formulario">
+            <label for="Nombre">Nombre:</label>
+            <br>
+            <br>
+            <input type="text" id="Nombre" value="" onblur="Validar_Nombre();"/>
+            <span id="nomb"></span>
+            <br>
+            <br>
+            <label for="Email">Email:</label>
+            <br>
+            <br>
+            <input type="email" id="Email" value="" onblur="Validar_Email();"/>
+            <span id="email"></span>
+            <br>
+            <br>
+            <label for="Clave">Clave:</label>
+            <br>
+            <br>
+            <input type="password" id="Clave" value=""  onblur="Validar_Clave();"/>
+            <span id="clave"></span>
+            <br>
+            <br>
+            <label for="ConfClave">Confirmar Clave:</label>
+            <br>
+            <br>
+            <input type="password" id="ConfClave" value=""  onblur="Validar_ConfClave();"/>
+            <span id="confclave"></span>
+            <br>
+            <br>
+            <button type="button" onclick="Enviar();">ENVIAR</button>
+            </form>
+            
+        </td>
+        
+        
+    
+
+    </table>
+
+</body>
+
+
+
+
+</html>

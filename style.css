@@ -1,0 +1,30 @@
+body{
+
+    background-color: black;
+}
+
+table{
+    background-color: rgb(28, 44, 44);
+    height: 100%;
+    width: 20%;
+    margin:auto;
+    border-spacing: 30px;
+    padding-bottom: 20%;
+    color:lightblue
+    
+}
+
+button{
+    text-align: center;
+    background-color: purple;
+    color:white;
+    padding: 10px 160px;
+    font-weight: bold;
+}
+
+input{
+    padding: 10px 0px;
+    inline-size: 100%;
+    text-align: left;
+}
+
